@@ -2,7 +2,8 @@
 using namespace std; // Eğer bu satırı yazmasaydık cout ve endl gibi standart kütüphane fonksiyonlarını yazarken her satırda std::cout ve std::endl şeklinde yazmamız gerekecekti.
 // std::cout << "Merhaba Dünya!" şeklinde yazmamız gerekecekti. Her satırda std::cout ve std::endl yazmak yerine using namespace std; yazarak bu fonksiyonları altta sadece cout kullanarak yazabiliriz.
 int main(){ // main fonksiyonu programın başlangıç noktasıdır. Programın çalıştırılmasıyla birlikte ilk olarak main fonksiyonu çalıştırılır.
-    cout << "Merhaba Dunya!"; // cout, standart çıkış akışıdır. Bu akışa veri yazdırmak için kullanılır.
+    cout << "Merhaba Dunya!" << endl; // cout, standart çıkış akışıdır. Bu akışa veri yazdırmak için kullanılır.
+    cout << "Hello World!" << endl; // endl, bir satır sonu karakteridir. Bu karakter sayesinde bir sonraki yazdırılacak veri bir alt satırdan başlar.
 }
 
 /* NOTLAR:
@@ -14,10 +15,4 @@ int main(){ // main fonksiyonu programın başlangıç noktasıdır. Programın 
 6- cout: cout, standart çıkış akışıdır. Bu akışa veri yazdırmak için kullanılır.
 7- endl: endl, bir satır sonu karakteridir. Bu karakter sayesinde bir sonraki yazdırılacak veri bir alt satırdan başlar.
 8- Süslü Parantezler: main fonksiyonunun başlangıç ve bitiş noktalarını belirler. main fonksiyonu süslü parantezler arasında tanımlanır.
-
- 
- 
- 
- 
- 
  */
